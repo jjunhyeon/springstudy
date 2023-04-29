@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
  *  //-> V3 버전
  *  LogTraceConfig를 Configuration으로 등록해 파라미터 없이 처리하는걸 가능하게 해결했다.
  *  하지만 동시에 여러 Request를 날릴 시 동시성 문제를 겪고 있다.
- *
+ *  ThreadLocal의 남은 값은 release시점에 제거를 해줘야한다.
  * */
 public class OrderControllerV3 {
 
