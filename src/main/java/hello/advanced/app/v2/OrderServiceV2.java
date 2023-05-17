@@ -14,7 +14,7 @@ public class OrderServiceV2 {
     private final OrderRepositoryV2 orderRepositoryV2;
     private final HelloTraceV2 trace;
 
-    // 비즈니르 로직
+    // 비즈니스 로직
     public void orderItem(TraceId traceId, String itemId){
         TraceStatus status = null;
         try {

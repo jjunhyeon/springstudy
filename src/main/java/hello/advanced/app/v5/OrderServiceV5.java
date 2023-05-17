@@ -18,7 +18,7 @@ public class OrderServiceV5 {
         this.traceTemplate = new TraceTemplate(logTrace);
     }
 
-    // 비즈니르 로직
+    // 비즈니스 로직
     public void orderItem(String itemId){
         traceTemplate.execute("OrderService.orderItem()", () -> {
             orderRepository.save(itemId);

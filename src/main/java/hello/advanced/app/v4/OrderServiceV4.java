@@ -13,7 +13,7 @@ public class OrderServiceV4 {
     private final OrderRepositoryV4 orderRepository;
     private final LogTrace trace;
 
-    // 비즈니르 로직
+    // 비즈니스 로직
     public void orderItem(String itemId){
         AbstractTemplate<Void> template = new AbstractTemplate<Void>(trace) {
             @Override

@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /*
- *  로그 추적기 v4 버전
+ *  로그 추적기 v5 버전
  *  템플릿 메서드 적용 버전
  * */
 @RestController
